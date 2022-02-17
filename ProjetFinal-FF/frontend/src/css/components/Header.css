@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+.header-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.titles {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-size: 5.5rem;
+  top: 25%;
+  word-spacing: 115rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.bcg-homepage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.br {
+  display: none;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/* RESPONSIVE */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+@media (max-width: 1550px) {
+  .titles {
+    word-spacing: 90rem;
+  }
+}
+
+@media (max-width: 1380px) {
+  .titles {
+    word-spacing: 70rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .titles {
+    word-spacing: 50rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .titles {
+    word-spacing: 35rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .titles {
+    word-spacing: 20rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .titles {
+    word-spacing: 10rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .titles {
+    word-spacing: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .br {
+    display: block;
+  }
+  .titles {
+    text-align: center;
+    margin-top: 10px;
+  }
+}

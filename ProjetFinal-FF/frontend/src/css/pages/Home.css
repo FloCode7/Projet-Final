@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/* RESPONSIVE */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+
+@media (max-width: 1380px) {
+  .home {
+    align-items: center;
+  }
+}

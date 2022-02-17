@@ -1,0 +1,72 @@
+.login {
+  height: calc(108vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(4, 30, 26, 0.7), rgba(4, 30, 26, 0.7)),
+    url("../../assets/géoréso-bcg.jpg");
+  background-size: cover;
+}
+
+.login-title {
+  font-size: 50px;
+}
+
+.login-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.login-input:focus {
+  outline: none;
+}
+
+.login-button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #04af45;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.login-button:disabled {
+  cursor: not-allowed;
+  background-color: #53a873;
+}
+
+.login-register-button {
+  background-color: #046baf;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  width: 200px;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 40px;
+}
